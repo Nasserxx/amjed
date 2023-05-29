@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#40ffffff"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Timetable.TimeActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentTop="true"
+        android:background="@color/purple_200"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:text="Meals"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/breakfast1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@color/white"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:layout_below="@+id/relative"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_16sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:textSize="@dimen/_15sdp"
+            android:text="Ervings Per Recipe:\n \n
+Calories: 214.2% Daily Value \n
+Protein: 5.8g 12% \n
+Carbohydrates: 27.2g 9%  \n
+Dietary Fiber: 1g4%   \n
+Sugars: 3g \n
+Fat: 9g 14% \n
+Saturated Fat: 1.7g 9% \n
+Cholesterol: 109.6mg 37% \n
+Vitamin A Iu: 133.9IU 3% \n
+Niacin Equivalents: 3.4mg 26% \n
+Vitamin B6: 0.1mg 4% \n
+Folate: 88.7mcg 22% \n
+Calcium: 18.3mg 2% \n
+Iron: 1.9mg 11%\n
+Magnesium: 9.3mg 3% \n
+Potassium: 70mg 2% \n
+Sodium: 148.4mg 6% \n
+Thiamin: 0.3mg 28% \n
+Calories From Fat: 81.2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/breakfast2"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:layout_below="@+id/relative"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_16sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:textSize="@dimen/_15sdp"
+            android:text="Romaine \n– Crunchy iceberg or endive works well too.
+Coconut bacon \n– Make this homemade Coconut Bacon, or you can find it online for ease.
+Chickpeas \n– Roasted Chickpeas are great for crunch, but canned or fresh cooked is great too
+Corn \n– I love using fresh corn off the cob, but canned or frozen (thawed) are great as well.
+Tomatoes \n– Fresh and juicy cherry or grape tomatoes are perfect.
+Radish \n– Adds a pop of color and crunch. Cut them into chunks or thinly slice them.
+Avocado \n– Add a nice creaminess to the salad, but it can be optional
+Red onion\n – You can sub with green onions as well."/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lunch1"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:layout_below="@+id/relative"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_16sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:textSize="@dimen/_15sdp"
+            android:text="Colonel TS Burger Menü
+Produktinfo: \n\n
+-Ein saftiges Hähnchenfilet nach Colonel Sanders’ Originalrezept\n\n
+-mehrmals täglich frisch vor Ort zubereitet. Colonel TS Burger mit \n\n
+-Cheddar Käse, frischen Tomaten, knackigem Salat, Burger Bun und \n\n
+-einem cremigen Burger-Dressing. Als Menü mit einer\n\n
+ Beilage und einem 0,5L Softdrink deiner Wahl."/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lunch2"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:layout_below="@+id/relative"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_16sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:textSize="@dimen/_15sdp"
+            android:text="Romaine \n– Crunchy iceberg or endive works well too.
+Coconut bacon \n– Make this homemade Coconut Bacon, or you can find it online for ease.
+Chickpeas \n– Roasted Chickpeas are great for crunch, but canned or fresh cooked is great too
+Corn \n– I love using fresh corn off the cob, but canned or frozen (thawed) are great as well.
+Tomatoes \n– Fresh and juicy cherry or grape tomatoes are perfect.
+Radish \n– Adds a pop of color and crunch. Cut them into chunks or thinly slice them.
+Avocado \n– Add a nice creaminess to the salad, but it can be optional
+Red onion\n – You can sub with green onions as well."/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
